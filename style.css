@@ -99,3 +99,10 @@ a {
     color: #999;
     margin-top: 50px;
 }
+/* サイトタイトルのリンクスタイルを調整 */
+.site-header h1 a {
+    text-decoration: none; /* 下線を非表示にする */
+}
+.site-header h1 a:hover {
+    opacity: 0.8; /* ホバー時に少し透明度を下げて反応を示す */
+}
