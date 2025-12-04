@@ -106,3 +106,25 @@ a {
 .site-header h1 a:hover {
     opacity: 0.8; /* ホバー時に少し透明度を下げて反応を示す */
 }
+/* ナビゲーションメニューのアイコン（ロゴ）のスタイル */
+.site-header nav a i {
+    font-size: 20px; /* アイコンのサイズを調整 */
+    color: #444;    /* 🌟 シックな濃いグレーに設定 🌟 */
+    transition: color 0.3s; /* マウスを乗せた時のアニメーションを滑らかにする */
+}
+
+/* ナビゲーションリンク全体のスタイル調整（アイコン表示のため） */
+.site-header nav li {
+    margin-left: 15px; /* リンク間のスペースを微調整 */
+}
+
+/* ホバー時（マウスを乗せた時）のアイコンの色 */
+.site-header nav a:hover i {
+    color: #000; /* ホバー時はさらに濃く、または黒にして強調 */
+    border-bottom: none; /* ホバー時の下線はアイコンには不要なので無効化 */
+}
+
+/* アイコンリンクの下線（元のCSSの影響を打ち消すため） */
+.site-header nav a:hover {
+    border-bottom: none !important;
+}
